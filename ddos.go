@@ -36,7 +36,6 @@ func main() {
 		scanner.Scan()
 		ip := scanner.Text()
 		Log("Please type threads...")
-                scanner := bufio.NewScanner(os.Stdin)
                 scanner.Scan()
                 threads := scanner.Text()
 
@@ -80,7 +79,7 @@ func DDoS(){
 	time.Sleep(time.Second)
 	d.Stop()
 	fmt.Fprintf(os.Stdout, "DDoS attack server: " + ip)
-	return nil
+	//return nil
 }
 
 func Log(i string) {
