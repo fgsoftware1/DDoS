@@ -1,4 +1,4 @@
-package portLib
+package ports
 
 import (
 	"net"
