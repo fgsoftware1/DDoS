@@ -1,4 +1,4 @@
-package ddosLib
+package ddos
 
 import (
 	"fmt"
